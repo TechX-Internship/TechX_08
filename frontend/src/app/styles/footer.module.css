@@ -1,0 +1,5 @@
+.footer {
+    background: var(--SECONDARY, #010A1A);
+    font-size: 2rem;
+    color: white;
+}
