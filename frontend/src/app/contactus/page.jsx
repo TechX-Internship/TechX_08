@@ -7,7 +7,7 @@ const contactus = () => {
 		<>
 			<Header />
 			<div>contactus</div>
-			<Footer />
+			{/* <Footer /> */}
 		</>
 	)
 }

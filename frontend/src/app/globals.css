@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 html, body {
     color: rgb(var(--foreground-rgb));
+}
+
+.container {
+    max-width: 83.375rem;
+    margin: 0 auto;
 }

@@ -7,7 +7,7 @@ const productenquiry = () => {
 		<>
 			<Header />
 			<div>productenquiry</div>
-			<Footer />
+			{/* <Footer /> */}
 		</>
 	)
 }

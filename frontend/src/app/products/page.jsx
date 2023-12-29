@@ -7,7 +7,7 @@ const products = () => {
 		<>
 			<Header />
 			<div>products</div>
-			<Footer />
+			{/* <Footer /> */}
 		</>
 	)
 }

@@ -1,11 +1,17 @@
-import Footer from './components/Footer'
-import Header from './components/Header'
+import React from "react";
+import HomePage from "./Home/page";
+import Header from "./components/Header";
+import 'bootstrap/dist/css/bootstrap.css'
 
-export default function Home () {
+const Home = () => {
     return (
-        <main>
-            <Header />
-            <Footer />
-        </main>
-    )
-}
+        <>
+            <main>
+                <Header />
+                <HomePage />
+            </main>
+        </>
+    );
+};
+
+export default Home;
