@@ -64,11 +64,7 @@
     border: none;
 }
 */
-.mainbanner .container-fluid {
-    max-width: 83.375rem;
-    margin: 0 auto;
-    padding-top: 9.44rem;
-}
+
 .mainbanner {
     height: 50rem;
     background-color: rgba(255, 141, 65, 0.20);
@@ -129,4 +125,92 @@
     border: none;
     color: white;
     background: var(--PRIMARY, #F76301);
+}
+
+.aboutus {
+    padding: 6.25rem 0;
+}
+.aboutright {
+    border-radius: 1.25rem;
+}
+.aboutright img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.aboutleft {
+    height: 100%;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+}
+.aboutleft h4 {
+    color: var(--SECONDARY, #010A1A);
+    text-align: center;
+    font-size: 1.625rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.aboutleft h3 {
+    color: var(--PRIMARY, #F76301);
+    font-size: 2.75rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.aboutleft .firstParagraph {
+    color: var(--SECONDARY, #010A1A);
+    font-family: Playfair Display;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.aboutleft .secondParagraph {
+    color: var(--DARK-GRAY, #7F7F7F);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.aboutcard {
+    padding: 1.81rem 1.5rem;
+    border-radius: 0.625rem;
+    background: var(--LIGHT-GRAY, #F7F7F7);
+}
+.aboutcard div {
+    padding: 1.25;
+}
+.aboutcard img {
+    width: 2.1875rem;
+    height: 2.1875rem;
+}
+.aboutcardheading {
+    color: var(--SECONDARY, #010A1A);
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    padding-left: 1.2rem;
+}
+.aboutcard p {
+    background: var(--LIGHT-GRAY, #F7F7F7);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.aboutleft button {
+    width: 12.6875rem;
+    height: 3.125rem;
+    flex-shrink: 0;
+    border-radius: 0.3125rem;
+    border: none;
+    color: white;
+    background: var(--PRIMARY, #F76301);
+    margin-top: 1.56rem;
 }

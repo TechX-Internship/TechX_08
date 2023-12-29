@@ -21,6 +21,50 @@ const HomePage = () => {
 						</div>
 					</div>
 				</section>
+				<section className={`${styles.aboutus}`}>
+					<div className="container">
+						<div className="row g-4 ">
+							<div className="col-sm-12 col-lg-6 order-last order-lg-first">
+								<div className={styles.aboutleft}>
+									<h4>WHO WE ARE</h4>
+									<h3>ABOUT US</h3>
+									<p className={styles.firstParagraph}>We Help To Get Solutions</p>
+									<p className={styles.secondParagraph}>
+										M R K Industries is one of the largest sellers of Packaging film in India, having a capacity of 18000 MT TPA with 10 years of experience. We are the exclusive
+										dealer for Jindal Polyfilms Ltd, Asia's...
+									</p>
+									<div className="row">
+										<div className="col-6">
+											<div className={`${styles.aboutcard}`}>
+												<div className="d-flex">
+													<img src="images/about/rocket.png" alt="image" />
+													<h4 className={styles.aboutcardheading}>OUR MISSION</h4>
+												</div>
+												<p className="pt-4">We fuel our passion for constant growth, both organic & inorganic by....</p>
+											</div>
+										</div>
+										<div className="col-6">
+											<div className={`${styles.aboutcard}`}>
+												<div className="d-flex">
+													<img src="images/about/bulb.png" alt="image" />
+													<h4 className={styles.aboutcardheading}>OUR MISSION</h4>
+												</div>
+												<p className="pt-4">We fuel our passion for constant growth, both organic & inorganic by....</p>
+											</div>
+										</div>
+									</div>
+									<button>Learn More</button>
+								</div>
+							</div>
+							<div className="col-sm-12 col-lg-6 order-first order-lg-last">
+								<div className={styles.aboutright}>
+									<img src="images/about/about.png" alt="" />
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				lll
 			</main>
 		</>
 	)
