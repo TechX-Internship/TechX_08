@@ -59,6 +59,13 @@ const HomePage = () => {
 							<div className="col-sm-12 col-lg-6 order-first order-lg-last">
 								<div className={styles.aboutright}>
 									<img src="images/about/about.png" alt="" />
+									<div className={`${styles.aboutright} ${styles.textdivonimage}`}>
+										<img src="images/about/indiamap.png" alt="indiamap" />
+										<div>
+											<p>Exclusive Dealer For .</p>
+											<p>Jindal Poly Flims Pvt. Ltd</p>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
