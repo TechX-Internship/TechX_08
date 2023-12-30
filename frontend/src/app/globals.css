@@ -19,3 +19,174 @@ html, body {
     height: 37.1875rem;
     flex-shrink: 0;
 }
+
+/* ABOUTUS */
+
+.hero {
+    padding-top: 5.5rem;
+    height: 35.375rem;
+    background: rgba(255, 141, 65, 0.20);
+}
+.hero .data-bg {
+    height: 16rem;
+    width: 50rem;
+    z-index: 2;
+}
+/* .hero .data {
+    background-image: url('../../public/images/main-banner/data-bg.png');
+    background-repeat: no-repeat;
+    width: 50rem;
+    position: relative;
+    z-index: 2;
+} */
+.hero span {
+    color: var(--PRIMARY, #F76301);
+    font-family: Playfair Display;
+    font-size: 3.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 45%;
+    text-align: center;
+    z-index: 5;
+}
+.hero .mainbannerimg {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    right: 1rem;
+    height: 35rem;
+}
+
+/* ABOUT PAGE */
+.aboutus {
+    padding-top: 3.25rem;
+
+}
+.aboutus .title {
+    color: var(--SECONDARY, #010A1A);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.625rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.aboutpageright {
+    width: 32.375rem;
+    height: 24.625rem;
+}
+.aboutpageleft span {
+    color: var(--SECONDARY, #010A1A);
+    font-family: Playfair Display;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.aboutpageleft p {
+    color: var(--DARK-GRAY, #7F7F7F);
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 1.25rem;
+}
+.aboutpageleft img {
+    width: 5.9375rem;
+    height: 3.625rem;
+}
+.aboutcard {
+    padding: 1.81rem 1.5rem;
+    border-radius: 0.625rem;
+    background: var(--LIGHT-GRAY, #F7F7F7);
+}
+.aboutcard div {
+    padding: 1.25;
+}
+.aboutcard img {
+    width: 2.1875rem;
+    height: 2.1875rem;
+    margin-right: 1rem;
+}
+.aboutcard .heading {
+    color: var(--SECONDARY, #010A1A);
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    padding-left: 1.2rem;
+}
+.aboutcard p {
+    background: var(--LIGHT-GRAY, #F7F7F7);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.sectionheading span {
+    color: var(--SECONDARY, #010A1A);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.625rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.sectionheading h3 {
+    color: var(--PRIMARY, #F76301);
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 2.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+/* ❗❕❗❕❗❕❗❕❗❕❗❕❗❕❗ */
+.sectionheading p span:not(:last-child)::after {
+    content: "|";
+    margin: 0 0.5rem;
+    color: #F76301;
+    display: inline-block;
+}
+
+.ourproductsrow {
+    border-radius: 0.625rem;
+    background: #F7F7F7;
+    margin: 2.5rem 0;
+}
+.ourproductsrow img {
+    width: 29.1875rem;
+    height: 25rem;
+}
+.ourproductsrow h4 {
+    color: var(--SECONDARY, #010A1A);
+    font-family: Playfair Display;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.ourproductsrow p {
+    color: var(--DARK-GRAY, #7F7F7F);
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.ourproductsrow span {
+    color: #000;
+    font-family: Playfair Display;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.ourproductsrow ul li {
+    margin-top: 0.6rem;
+    border-radius: 0.625rem;
+    background-color: #FFF;
+}

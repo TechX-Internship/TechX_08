@@ -15,11 +15,20 @@
     background-position: left;
     background-size: contain;
     position: relative;
-    left: -10%;
+    z-index: 10;
+    left: 0%;
     height: 31.8125rem;
     width: 71.91238rem;
     display: flex;
     align-items: center;
+}
+.mainbannerimg {
+    position: absolute;
+    right: 1.5rem;
+    top: 0;
+    z-index: 1;
+    height: 45rem;
+    width: 45rem;
 }
 .leftdata div {
     display: inline-flex;
@@ -163,8 +172,9 @@
 .aboutcard img {
     width: 2.1875rem;
     height: 2.1875rem;
+    margin-right: 1rem;
 }
-.aboutcardheading {
+.aboutcard heading {
     color: var(--SECONDARY, #010A1A);
     font-size: 1.75rem;
     font-style: normal;
@@ -276,9 +286,12 @@
     padding-bottom: 3.13rem;
 }
 .contactus {
-    padding: 6.75rem 0;
+    padding: 0 0 6.75rem 0;
 }
-.contactupright {
+.contactusright form {
+    width: 80%;
+}
+.contactusright {
     padding-top: 2.5rem;
 }
 .form-group {

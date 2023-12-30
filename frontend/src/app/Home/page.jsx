@@ -19,6 +19,7 @@ const HomePage = () => {
 								<button>Get a quote</button>
 							</div>
 						</div>
+						<img src="images/main-banner/mainbannerimg.png" alt="" className={styles.mainbannerimg} />
 					</div>
 				</section>
 				<section className={`${styles.aboutus}`}>
@@ -179,14 +180,14 @@ const HomePage = () => {
 							<h3>CONTACT US</h3>
 						</div>
 						<div className="row">
-							<div className="col-6">
+							<div className="col-12 col-xl-6">
 								<div className="overflow-hidden">
 									<img src="images/contactus/contactleftimage.png" alt="" className="img-fluid" />
 								</div>
 							</div>
-							<div className="col-6">
-								<div className={styles.contactupright}>
-									<form>
+							<div className="col-12 col-xl-6">
+								<div className={`${styles.contactusright}`}>
+									<form className="m-auto">
 										<div className="form-group w-75 mb-2">
 											<input type="text" className="form-control" id="firstName" placeholder="Enter your first name" />
 										</div>
