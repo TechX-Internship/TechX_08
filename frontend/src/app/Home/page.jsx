@@ -147,6 +147,31 @@ const HomePage = () => {
 						</div>
 					</div>
 				</section>
+				<section className={`${styles.testimonial}`}>
+					<div className="container">
+						<div className={`${styles.sectionheading} text-center pb-4`}>
+							<span>What Our Clients Say About Us</span>
+							<h3>TESTIMONIALS</h3>
+						</div>
+						<div className="row justify-content-center">
+							<div className="col-12 col-md-6 col-lg-4">
+								<div>
+									<img src="images/testimonial/image5.png" alt="" className="img-fluid d-block m-auto" />
+								</div>
+							</div>
+							<div className="col-12 col-md-6 col-lg-4">
+								<div>
+									<img src="images/testimonial/image4.png" alt="" className="img-fluid d-block m-auto" />
+								</div>
+							</div>
+							<div className="col-12 col-md-6 col-lg-4">
+								<div>
+									<img src="images/testimonial/image6.png" alt="" className="img-fluid d-block m-auto" />
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
 			</main>
 		</>
 	)

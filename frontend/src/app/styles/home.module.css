@@ -269,6 +269,9 @@
     background: #F76301;
     border: none;
 }
-.mainbanner {
-    display: none;
+.testimonial {
+    padding: 6.75rem 0;
+}
+.testimonial .sectionheading {
+    padding-bottom: 3.13rem;
 }
