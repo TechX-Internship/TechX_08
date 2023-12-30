@@ -1,5 +1,25 @@
 .footer {
     background: var(--SECONDARY, #010A1A);
-    font-size: 2rem;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
     color: white;
+    padding: 2.31rem 0;
+}
+.logo {
+    width: 8.5rem;
+    height: 3.4375rem;
+}
+.columnrow {
+    display: flex;
+    gap: 1rem;
+    margin: .5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+
+}
+.columnrow img {
+    width: 1.875rem;
+    height: 1.875rem;
 }
