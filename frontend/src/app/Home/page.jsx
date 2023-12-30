@@ -22,9 +22,9 @@ const HomePage = () => {
 					</div>
 				</section>
 				<section className={`${styles.aboutus}`}>
-					<div className="container">
+					<div className="container p-0">
 						<div className="row g-4 ">
-							<div className="col-sm-12 col-lg-6 order-last order-lg-first">
+							<div className="col-sm-12 pe-0 pe-sm-3 col-lg-6 order-last order-lg-first">
 								<div className={styles.aboutleft}>
 									<h4>WHO WE ARE</h4>
 									<h3>ABOUT US</h3>
@@ -33,8 +33,8 @@ const HomePage = () => {
 										M R K Industries is one of the largest sellers of Packaging film in India, having a capacity of 18000 MT TPA with 10 years of experience. We are the exclusive
 										dealer for Jindal Polyfilms Ltd, Asia's...
 									</p>
-									<div className="row">
-										<div className="col-6">
+									<div className="row g-0">
+										<div className="col-6 pe-0 pe-sm-3">
 											<div className={`${styles.aboutcard}`}>
 												<div className="d-flex">
 													<img src="images/about/rocket.png" alt="image" />
@@ -43,7 +43,7 @@ const HomePage = () => {
 												<p className="pt-4">We fuel our passion for constant growth, both organic & inorganic by....</p>
 											</div>
 										</div>
-										<div className="col-6">
+										<div className="col-6 pe-0 ">
 											<div className={`${styles.aboutcard}`}>
 												<div className="d-flex">
 													<img src="images/about/bulb.png" alt="image" />
@@ -56,7 +56,7 @@ const HomePage = () => {
 									<button>Learn More</button>
 								</div>
 							</div>
-							<div className="col-sm-12 col-lg-6 order-first order-lg-last">
+							<div className="col-sm-12 col-lg-6 px-0 px-sm-3 order-first order-lg-last">
 								<div className={styles.aboutright}>
 									<img src="images/about/about.png" alt="" />
 									<div className={`${styles.aboutright} ${styles.textdivonimage}`}>
@@ -71,7 +71,82 @@ const HomePage = () => {
 						</div>
 					</div>
 				</section>
-				lll
+				<section className={`$ {styles.ourproducts}`}>
+					<div className="container p-0">
+						<div className={`${styles.sectionheading} text-center pb-4`}>
+							<span>18000+MT TPA </span>
+							<h3>OUR PRODUCTS</h3>
+							<p>
+								<span>BOPP</span>
+								<span>CPP</span>
+								<span>PET</span>
+								<span>METALIZED</span>
+							</p>
+						</div>
+						<div className="row">
+							<div className="col-12 col-sm-6 col-md-3">
+								<div>
+									<div className={`${styles.productimagediv} d-flex justify-center`}>
+										<img className="img-fluid m-auto" src="images/ourproducts/image1.png" alt="" />
+									</div>
+									<div className={styles.devider}></div>
+									<div className={`${styles.productdatadiv}`}>
+										<h4>BOPPFILMS</h4>
+										<p>MRK Industries offer full range of BOPP film from 07 to 70 microns whi...</p>
+										<button>
+											<img src="images/ourproducts/send.png" alt="" />
+										</button>
+									</div>
+								</div>
+							</div>
+							<div className="col-12 col-sm-6 col-md-3">
+								<div>
+									<div className={`${styles.productimagediv} d-flex justify-center`}>
+										<img className="img-fluid m-auto" src="images/ourproducts/image2.png" alt="" />
+									</div>
+									<div className={styles.devider}></div>
+									<div className={`${styles.productdatadiv}`}>
+										<h4>BOPPFILMS</h4>
+										<p>MRK Industries offer full range of BOPP film from 07 to 70 microns whi...</p>
+										<button>
+											<img src="images/ourproducts/send.png" alt="" />
+										</button>
+									</div>
+								</div>
+							</div>
+							<div className="col-12 col-sm-6 col-md-3">
+								<div>
+									<div className={`${styles.productimagediv} d-flex justify-center`}>
+										<img className="img-fluid m-auto" src="images/ourproducts/image3.png" alt="" />
+									</div>
+									<div className={styles.devider}></div>
+									<div className={`${styles.productdatadiv}`}>
+										<h4>BOPPFILMS</h4>
+										<p>MRK Industries offer full range of BOPP film from 07 to 70 microns whi...</p>
+										<button>
+											<img src="images/ourproducts/send.png" alt="" />
+										</button>
+									</div>
+								</div>
+							</div>
+							<div className="col-12 col-sm-6 col-md-3">
+								<div>
+									<div className={`${styles.productimagediv} d-flex justify-center`}>
+										<img className="img-fluid m-auto" src="images/ourproducts/image1.png" alt="" />
+									</div>
+									<div className={styles.devider}></div>
+									<div className={`${styles.productdatadiv}`}>
+										<h4>BOPPFILMS</h4>
+										<p>MRK Industries offer full range of BOPP film from 07 to 70 microns whi...</p>
+										<button>
+											<img src="images/ourproducts/send.png" alt="" />
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
 			</main>
 		</>
 	)
