@@ -172,6 +172,62 @@ const HomePage = () => {
 						</div>
 					</div>
 				</section>
+				<section className={`${styles.contactus}`}>
+					<div className="container-fluid p-0">
+						<div className={`${styles.sectionheading} text-center pb-4`}>
+							<span>Get In Touch</span>
+							<h3>CONTACT US</h3>
+						</div>
+						<div className="row">
+							<div className="col-6">
+								<div className="overflow-hidden">
+									<img src="images/contactus/contactleftimage.png" alt="" className="img-fluid" />
+								</div>
+							</div>
+							<div className="col-6">
+								<div className={styles.contactupright}>
+									<form>
+										<div className="form-group w-75 mb-2">
+											<input type="text" className="form-control" id="firstName" placeholder="Enter your first name" />
+										</div>
+
+										<div className="form-group w-75 mb-2">
+											<input type="text" className="form-control" id="street" placeholder="Enter your street" />
+										</div>
+
+										<div className="form-group mb-2">
+											<div className="row w-75">
+												<div className="col">
+													<input type="text" className="form-control" id="city" placeholder="Enter your city" />
+												</div>
+												<div className="col">
+													<input type="text" className="form-control" id="zip" placeholder="Enter your ZIP code" />
+												</div>
+											</div>
+										</div>
+
+										<div className="form-group w-75 mb-2">
+											<input type="email" className="form-control" id="email" placeholder="Enter your email" />
+										</div>
+
+										<div className="form-group w-75 mb-2">
+											<textarea className="form-control" id="message" rows="4" placeholder="Type your message here"></textarea>
+										</div>
+
+										<div className="form-group w-75 mb-2 form-check">
+											<input type="checkbox" className="form-check-input" id="ndaCheck" />
+											<label className="form-check-label custom-checkbox-label" htmlFor="ndaCheck">
+												I want to protect my data by signing an NDA
+											</label>
+										</div>
+
+										<button className={`${styles.submitbtn} w-75 btn btn-primary`}>Submit</button>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
 			</main>
 		</>
 	)

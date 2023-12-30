@@ -12,3 +12,10 @@ html, body {
     max-width: 83.375rem;
     margin: 0 auto;
 }
+.img {
+    z-index: 20;
+    ;
+    width: 19.8125rem;
+    height: 37.1875rem;
+    flex-shrink: 0;
+}

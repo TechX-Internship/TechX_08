@@ -275,3 +275,35 @@
 .testimonial .sectionheading {
     padding-bottom: 3.13rem;
 }
+.contactus {
+    padding: 6.75rem 0;
+}
+.contactupright {
+    padding-top: 2.5rem;
+}
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-control {
+    width: 100%;
+    height: 3.125rem;
+    border: 1px solid #B1B1B1;
+    margin: 0.94rem 0;
+}
+
+.custom-checkbox-label {
+    padding-left: 1.5rem;
+}
+
+.submitbtn {
+    width: 34.3125rem;
+    height: 3.375rem;
+    border-radius: 0.625rem;
+    background: var(--PRIMARY, #F76301);
+    color: white;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
