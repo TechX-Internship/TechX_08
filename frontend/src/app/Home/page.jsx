@@ -189,26 +189,38 @@ const HomePage = () => {
 								<div className={`${styles.contactusright}`}>
 									<form className="m-auto">
 										<div className="form-group w-75 mb-2">
-											<input type="text" className="form-control" id="firstName" placeholder="Enter your first name" />
+											<input
+												type="text"
+												className="form-control"
+												id="firstName"
+												placeholder="Enter your first name"
+												style={{ width: "100%", color: "#D3D3D3", padding: "15px" }}
+											/>
 										</div>
 
 										<div className="form-group w-75 mb-2">
-											<input type="text" className="form-control" id="street" placeholder="Enter your street" />
+											<input type="text" className="form-control" id="street" placeholder="Enter your street" style={{ width: "100%", color: "#D3D3D3", padding: "15px" }} />
 										</div>
 
 										<div className="form-group mb-2">
 											<div className="row w-75">
 												<div className="col">
-													<input type="text" className="form-control" id="city" placeholder="Enter your city" />
+													<input type="text" className="form-control" id="city" placeholder="Enter your city" style={{ width: "100%", color: "#D3D3D3", padding: "15px" }} />
 												</div>
 												<div className="col">
-													<input type="text" className="form-control" id="zip" placeholder="Enter your ZIP code" />
+													<input
+														type="text"
+														className="form-control"
+														id="zip"
+														placeholder="Enter your ZIP code"
+														style={{ width: "100%", color: "#D3D3D3", padding: "15px" }}
+													/>
 												</div>
 											</div>
 										</div>
 
 										<div className="form-group w-75 mb-2">
-											<input type="email" className="form-control" id="email" placeholder="Enter your email" />
+											<input type="email" className="form-control" id="email" placeholder="Enter your email" style={{ width: "100%", color: "#D3D3D3", padding: "15px" }} />
 										</div>
 
 										<div className="form-group w-75 mb-2">
