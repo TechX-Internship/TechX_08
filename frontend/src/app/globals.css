@@ -190,3 +190,16 @@ html, body {
     border-radius: 0.625rem;
     background-color: #FFF;
 }
+.productenquirypage {
+    padding: 6.75rem 0;
+}
+.productenquirypage button {
+    width: 34.3125rem;
+    height: 3.375rem;
+    flex-shrink: 0;
+    border-radius: 0.625rem;
+    background: var(--PRIMARY, #F76301);
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+}
